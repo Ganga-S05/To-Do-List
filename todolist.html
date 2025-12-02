@@ -1,0 +1,40 @@
+<head>
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="two">
+    <h1>📘 To-Do List</h1>
+    
+<input id="one" placeholder="ENTER YOUR TASK">
+<button onclick="check()"  class="add" >ADD</button>
+<ul id="list">
+</ul>
+</div>
+<script class="list">
+    var ul=document.getElementById("list")
+    var one=document.getElementById("one")
+    function check(){
+        if(one.value.trim()===""){
+            alert("please enter the task")
+            return;
+        }
+        var listear=document.createElement("li")
+          listear.textContent=one.value
+        ul.append(listear)
+       var del=document.createElement("button")
+        del.textContent="Delete"
+        del.onclick=function(){
+            listear.remove();
+        }
+        listear.append(del)
+        ul.append(listear)
+         
+
+     
+        
+    }
+
+</script>
+</body>
+

@@ -1,0 +1,48 @@
+li button {
+    margin-left: 20px;
+}
+body{
+    margin:0;
+    padding: 0%;
+    height: 100px;
+    text-align: center;
+    margin-top:370px;
+   background-image:url("https://tse1.mm.bing.net/th/id/OIP.UU4xkiss57_-MjYsllRqJAHaE7?w=2000&h=1333&rs=1&pid=ImgDetMain&o=7&rm=3")
+}
+#one{
+    color:black;
+    padding: 3px;
+    border-radius:15px;
+    margin: 10px;
+ 
+
+}
+.two{
+        background:white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 0 auto; 
+   
+}
+.add{
+    color:black;
+    background-color:blue;
+    cursor: pointer;
+    border-radius:15px;
+    padding: 5px;
+}
+button{
+    background-color:red;
+    color:black;
+    cursor: pointer;
+    }
+li{
+   background-color:lightyellow;
+   padding: 10px;
+   margin-bottom: 5px;
+  }
+
+
+
+
